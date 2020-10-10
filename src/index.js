@@ -1,6 +1,8 @@
 import css from "./styles.css";
-import createHeader from "./header.js";
+import loadPage from "./page-load.js";
 
 const mainPage = document.getElementById("content");
-const header = createHeader();
-mainPage.appendChild(header);
+
+loadPage();
+
+export { mainPage };

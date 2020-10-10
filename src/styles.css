@@ -37,7 +37,7 @@ header {
     display: flex;
     justify-content: space-around; 
     flex-grow: 2;
-    margin-right: 20px;
+    margin-left: 50px;
 }
 
 button {
@@ -50,18 +50,10 @@ button {
     background: linear-gradient(to right, #274481 0%, #757575 100%);
 }
 
-button:hover {
-    transform: scale(1.05);
-}
-
 .fas {
     font-size: 30px;
     position: absolute;
     color: #bdbdbd;
-}
-
-.fas:hover {
-    color: orange;
 }
 
 .fa-home {
@@ -79,5 +71,34 @@ button:hover {
     font-size: 27px;
     right: 24px;
     bottom: 16px;
+}
+
+#home-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#intro {
+    padding-left: 3%;
+    color: white;
+}
+
+#title {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+#description {
+    font-size: 18px;
+}
+
+#home-img {
+    display: block; 
+    max-width: 900px;
+    height: auto;
+    padding-right: 1%;
 }
 
